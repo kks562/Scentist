@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    height: 120px;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+.header img {
+    width: 13%;
+    height: auto;
+}
+
+.header ul {
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+.header li {
+    color: #fff;
+    cursor: pointer;
+}
+
+.header li:hover {
+    color: gold;
+    font-weight: 900;
+    transform: scale(2.1);
+}
+
+.header ion-icon {
+    color: white;
+    font-size: 24px;
+    margin: 20px;
+}
+
+.header ion-icon:hover {
+    transform: scale(1.6); 
+    box-shadow: 0 0 10px gold;
+}
+
+.img {
+    position: relative;
+    margin-top: 1px; 
+    text-align: center; 
+    color: #fff;
+}
+
+.img img {
+    width: 100%; 
+    height: auto;
+   
+}
+
+
+.img video{
+    width:100%;
+    height: auto;
+}
+.img .text-overlay{
+    position: absolute;
+    top:20%;
+    left:40px;
+    
+}
+
+
+.img .text-overlay h1{
+        font-size: 50px;
+        left:50;
+}
+
+.another-section{
+    background-color: aquamarine;
+}
+.dot-play {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: -50px;
+    top: 200px;
+}
+.dots {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+.hero-dots {
+    width: 15px;
+    height: 15px;
+    background: #fff;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.orange{
+    background: orangered;
+}
+
+.play2{
+    width:70px;
+    position: absolute;
+    right:-870px;
+    bottom:-250px
+}
+
+.scroll-button {
+    position: absolute;
+    bottom:1px; /* Adjust the distance from the bottom */
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer;
+  }
+  
+  .scroll-button img {
+    width: 60px; /* Adjust size as needed */
+    height: auto;
+  }
+  
