@@ -1,0 +1,93 @@
+
+.contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-size: cover;
+    padding: 20px;
+    background: linear-gradient(135deg, #fbb26a, #5a4ec8);
+}
+
+.contact form {
+    max-width: 600px;
+    width: 100%;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    color: #333;
+    margin: 25px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact form:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+.contact form h2 {
+    font-size: 32px;
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact .input-box1 {
+    margin-top: 20px;
+}
+
+.contact .input-box1 label {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+}
+
+.contact .input-box1 .field {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #ddd;
+    outline: none;
+    border-radius: 6px;
+    padding: 15px;
+    font-size: 16px;
+    color: #333;
+    margin-top: 8px;
+    transition: border-color 0.3s ease;
+}
+
+.contact .input-box1 .field:focus {
+    border-color: #826afb;
+}
+
+.contact .input-box1 .field.mess {
+    height: 150px;
+    resize: none;
+}
+
+.contact form button {
+    width: 100%;
+    height: 55px;
+    background: black;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 25px;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.contact form button:hover {
+    background: #624ec6;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact form button:active {
+    background: #4a36a8;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+}

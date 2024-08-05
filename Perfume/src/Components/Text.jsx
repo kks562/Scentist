@@ -1,7 +1,6 @@
 import React from 'react'
-import './Text.css';
 
-const Text = ({play,count,data,setCount,setPlay}) => {
+const Text = ({data}) => {
     
 
   return (

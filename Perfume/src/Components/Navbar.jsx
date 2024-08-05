@@ -41,6 +41,14 @@ const Navbar = () => {
     scrollToProductGrid();
   };
 
+  const gotocontact=()=>{
+    navigate('/contact');
+  }
+
+  const gotoabout=()=>{
+    navigate('/About');
+  }
+
   return (
     <>
       <div className='header'>
@@ -50,8 +58,8 @@ const Navbar = () => {
           <li onClick={() => handleCategoryClick('Men')}>Mens</li>
           <li onClick={() => handleCategoryClick('Women')}>Womens</li>
           <li onClick={() => handleCategoryClick('Unisex')}>Unisex</li>
-          <li>Support</li>
-          <li>About</li>
+          <li onClick={gotocontact}>Contact</li>
+          <li onClick={gotoabout}>About</li>
         </ul>
         <div className="icon">
           <ion-icon name="cart-outline" onClick={goToCart}></ion-icon>
@@ -63,15 +71,15 @@ const Navbar = () => {
           ></ion-icon>
         </div>
       </div>
-
+            
       {account ? (
         <Login />
       ) : (
         <>
           <div className="img">
-            <Background play={play} count={count} setCount={setCount} />
+            <Background play={play} count={count} gsetCount={setCount} />
             <div className="text-overlay">
-              <Text play={play} count={count} setCount={setCount} setPlay={setPlay} data={data[count]} />
+              <Text data={data[count]} />
 
               <div className="dot-play">
                 <ul className="dots">

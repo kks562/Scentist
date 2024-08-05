@@ -12,7 +12,7 @@ const Login = () => {
       <section>
         <video autoPlay muted loop id="background-video">
           <source src={video} type="video/mp4" />
-          Your browser does not support HTML5 video.
+          Your browser does not support HTML5 video.  
         </video>
         <img src={image} alt="Logo" className="logo" />
         <div className="login-box">
@@ -22,7 +22,7 @@ const Login = () => {
               <span className="icon">
                 <IonIcon icon={mailSharp} />
               </span>
-              <input type="email" required />
+              <input type="email" required /> 
               <label>Email</label>
             </div>
             <div className="input-box">
@@ -38,7 +38,7 @@ const Login = () => {
               </label>
               <a href="#">Forgot password?</a>
             </div>
-            <button type="submit">Login</button>
+            <button type="submit" className='bt'>Login</button>
             <div className="register">
               <p>Don't have an account? <a href="#">Register</a></p>
             </div>

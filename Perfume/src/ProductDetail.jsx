@@ -18,7 +18,6 @@ const ProductDetail = () => {
   useEffect(() => {
     axios.get('http://localhost:3001/perfumes')
       .then(response => {
-        console.log('Response data:', response.data); 
         const fetchedProduct = response.data.find((p) => p.id === id);
         if (fetchedProduct) {
           setProduct(fetchedProduct);
@@ -28,7 +27,6 @@ const ProductDetail = () => {
         setLoading(false);
       })
       .catch(error => {
-        console.error('Error fetching data:', error);
         setError('Error fetching data');
         setLoading(false);
       });
@@ -46,9 +44,14 @@ const ProductDetail = () => {
     }
   };
 
-  const previousPage=()=>{
+  const gotopayment = () => {
+    navigate(`/payment`);
+  };
+
+  const previousPage = () => {
     navigate(`/`);
-  }
+  };
+
   const handleClick1 = () => {
     navigate(`/cart`);
   };
@@ -64,27 +67,31 @@ const ProductDetail = () => {
             <motion.img
               src={product.image}
               alt={product.name}
-              style={{ width: '700px', height: '700px', position: 'relative', top: '80px', right: '90px' }}
-              initial={{ opacity: 0, x: -50 }}
+              style={{ width: '100%', height: 'auto', maxWidth: '800px', margin: 'auto', position: 'relative', top: '180px', right: '90px' }}
+              initial={{ opacity: 0, x: -900 }}
               animate={{ opacity: 1, x: 0 }}
-              transition={{ duration: 0.5 }}
+              transition={{ duration: 0.9 }}
             />
           </Grid>
           <Grid item xs={12} md={6}>
             <div style={{ position: 'relative' }}>
               <motion.div
-                style={{ position: 'relative' }}
+                style={{ position: 'relative', width: '100%', maxWidth: '600px' }}
                 animate={animateCartIcon ? { scale: [1, 1.2, 1], rotate: [0, 10, -10, 0] } : {}}
                 transition={{ duration: 0.5 }}
               >
-<ion-icon name="arrow-back"style={{
+                <ion-icon
+                  name="arrow-back"
+                  style={{
                     position: 'absolute',
                     top: '40px',
                     right: '1270px',
                     fontSize: '38px',
                     color: 'black',
-                    cursor: 'pointer'}}
-                    onClick={previousPage}/>
+                    cursor: 'pointer'
+                  }}
+                  onClick={previousPage}
+                />
                 <ion-icon
                   name="cart-outline"
                   style={{
@@ -149,7 +156,7 @@ const ProductDetail = () => {
             <Button
               variant="contained"
               color="primary"
-              sx={{ position: 'relative', top: '326px', backgroundColor: 'Orange', marginLeft: '130px', padding: '40px', fontWeight: 'bold', fontSize: '18px' }}
+              sx={{ position: 'relative', top: '306px', backgroundColor: 'Orange', marginLeft: '130px', padding: '30px', fontWeight: 'bold', fontSize: '18px',width: '100%' }}
               onClick={handleClick}
             >
               Add to Cart
@@ -157,7 +164,8 @@ const ProductDetail = () => {
             <Button
               variant="contained"
               color="secondary"
-              style={{ position: 'relative', top: '140px', marginLeft: '130px', padding: '40px', fontWeight: 'bold', backgroundColor: "orangered", fontSize: '18px' }}
+              style={{ position: 'relative', top: '80px', marginLeft: '130px', padding: '30px', fontWeight: 'bold', backgroundColor: "orangered", fontSize: '18px',width: '100%'}}
+              onClick={gotopayment}
             >
               Buy Now
             </Button>

@@ -5,7 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import { motion } from 'framer-motion';
+import { motion } from 'framer-motion'; 
 import './ProductCard.css';
 
 const ProductCard = ({ product }) => {
