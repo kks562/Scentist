@@ -10,6 +10,9 @@ import Login from './Login';
 import ProductGrid from './ProductGrid';
 import arrowDown from '../assets/down.png';
 import { useNavigate } from 'react-router-dom';
+import { IonIcon } from 'react-ionicons';
+import { cartOutline, personCircleOutline } from 'ionicons/icons';
+
 
 const Navbar = () => {
   const data = [
@@ -62,13 +65,12 @@ const Navbar = () => {
           <li onClick={gotoabout}>About</li>
         </ul>
         <div className="icon">
-          <ion-icon name="cart-outline" onClick={goToCart}></ion-icon>
-          <ion-icon
-            name="person-circle-outline"
-            onClick={() => {
-              setAccount(!account);
-            }}
-          ></ion-icon>
+        <IonIcon icon={cartOutline} onClick={goToCart} />
+<IonIcon
+  icon={personCircleOutline}
+  onClick={() => setAccount(!account)}
+/>
+
         </div>
       </div>
             
