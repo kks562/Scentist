@@ -37,35 +37,44 @@ section {
 
 .login-box {
     position: relative;
-    top:100px;
-    left:100px;
+    top: -50px;
+    left: -460px;
     width: 400px;
     height: 450px;
     border-radius: 20px;
-    border: 2px solid rgba(255, 255, 255, .5);
+    border: 2px solid #fff;
     background: rgba(255, 255, 255, 0.1);
     display: flex;
     align-items: center;
     justify-content: center;
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(1px);
+    box-shadow: 0 4px 30px rgba(255, 255, 255, 0.6); 
+
     z-index: 1;
+    padding: 20px;
+    margin: 20px !important;
 }
+
 
 form {
     width: 100%;
     max-width: 350px; 
+    margin: 30px;
 }
 
 form h2 {
     font-size: 2rem;
     color: #fff;
     text-align: center;
+    position: relative;
+    top:19px;
+    letter-spacing: 4px;
 }
 
 .input-box {
     position: relative;
     width: 100%;
-    margin: 30px 0;
+    margin: 39px 0;
     border-bottom: 2px solid #fff;
 }
 
@@ -129,6 +138,7 @@ form h2 {
     font-size: 1em;
     color: #000;
     font-weight: 500;
+    margin-top: 20px;
 }
 
 .register {

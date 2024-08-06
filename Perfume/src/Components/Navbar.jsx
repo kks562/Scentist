@@ -8,7 +8,7 @@ import pause from '../assets/pause_icon.png';
 import Text from './Text';
 import Login from './Login';
 import ProductGrid from './ProductGrid';
-import arrowDown from '../assets/image.png';
+import arrowDown from '../assets/down.png';
 import { useNavigate } from 'react-router-dom';
 
 const Navbar = () => {
@@ -77,10 +77,10 @@ const Navbar = () => {
       ) : (
         <>
           <div className="img">
-            <Background play={play} count={count} gsetCount={setCount} />
+            <Background play={play} count={count} setCount={setCount} />
             <div className="text-overlay">
               <Text data={data[count]} />
-
+        
               <div className="dot-play">
                 <ul className="dots">
                   <li onClick={() => setCount(0)} className={count === 0 ? 'hero-dots orange' : 'hero-dots'}></li>

@@ -1,49 +1,56 @@
 import React from 'react';
 import './About.css';
-
-    import mainImg from '../assets/b.png'; 
-import cardImg from '../assets/i1.png';
-import { useNavigate } from 'react-router-dom';
+import back from '../assets/l.jpg';
 
 const About = () => {
-    const navigate = useNavigate();
-
-    const home=()=>{
-      navigate('/');
-    }
   return (
-    
-    <div className="responsive-container-block bigContainer">
-              <ion-icon name="arrow-back" style={{ fontSize: '50px', position: 'absolute', left: '10px', top: '10px' }} onClick={home}/>
+    <>
+      <div className="image">
+        <img src={back} alt="Background Image" />
+      </div>
+    <div className="about-container">
+      
+      <div className="about-banner">
+        <h1>About Us</h1>
+      </div>
+      <div className="about-content">
 
-      <div className="responsive-container-block Container">
-        <div className="imgContainer">
-          <img className="mainImg" src={mainImg} alt="Main" />
+        <div className="about-section">
+          <h2>Our Story</h2>
+          <p>
+            Welcome to Scentist, where we believe that a fragrance is more than just a scent; it's a journey through memory, emotion, and identity. Founded in [Year], our brand has been dedicated to crafting unique and luxurious fragrances that capture the essence of beauty and individuality.
+          </p>
         </div>
-        <div className="responsive-container-block textSide">
-          <p className="text-blk heading">About Us</p>
-          <p className="text-blk subHeading">
-          At Scentist, we believe that a fragrance is more than just a scent; it's an expression of identity, a memory, and a journey. Our mission is to curate and create perfumes that capture the essence of beauty, elegance, and individuality.          </p>
-          {[1, 2, 3, 4].map((_, index) => (
-            <div key={index} className="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
-              <div className="cardImgContainer">
-                <img className="cardImg" src={cardImg} alt="Card" />
-              </div>
-              <div className="cardText">
-                <p className="text-blk cardHeading">Value</p>
-                <p className="text-blk cardSubHeading">
-                Quality: We source the finest ingredients from around the world to ensure that our fragrances are of the highest quality.
-Sustainability.
-            </p>
-              </div>
+        <div className="about-section">
+          <h2>Our Philosophy</h2>
+          <p>
+            At Scentist, we are passionate about using only the finest ingredients sourced from around the world. Each of our perfumes is meticulously crafted by our expert perfumers to ensure a harmonious blend of notes that tell a unique story.
+          </p>
+        </div>
+        <div className="about-section">
+          <h2>Meet Our Team</h2>
+          <div className="team-members">
+            <div className="team-member">
+              <img src="path/to/team-member1.jpg" alt="Team Member 1" />
+              <h3>Jane Doe</h3>
+              <p>Founder & Master Perfumer</p>
             </div>
-          ))}
-          <a href="#services">
-            <button className="explore">Explore our Services</button>
-          </a>
+            <div className="team-member">
+              <img src="path/to/team-member2.jpg" alt="Team Member 2" />
+              <h3>John Smith</h3>
+              <p>Creative Director</p>
+            </div>
+          </div>
+        </div>
+        <div className="about-section">
+          <h2>Our Promise</h2>
+          <p>
+            We promise to deliver exceptional quality and unforgettable experiences with each of our products. Our commitment to sustainability and ethical practices ensures that you can indulge in luxury with a clear conscience.
+          </p>
         </div>
       </div>
     </div>
+    </>
   );
 };
 

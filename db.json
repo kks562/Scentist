@@ -119,6 +119,126 @@
          "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
          "price":"₹18400",
          "gender":"Women"
+        },
+        {
+        "id":13,
+         "name":"OUD PERFUME",
+         "brand":"DJOKR",
+         "image":"https://m.media-amazon.com/images/I/611WlLXHpXL.AC_UL480_FMwebp_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹257",
+         "gender":"Men"
+        },
+        {
+        "id":14,
+         "name":"SCUBA",
+         "brand":"USTRAA",
+         "image":"https://m.media-amazon.com/images/I/5111PgrZg4L.AC_UL480_FMwebp_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"500",
+         "gender":"Unisex"
+        },
+        {
+        "id":15,
+         "name":"XTREMO",
+         "brand":"FOGG",
+         "image":"https://m.media-amazon.com/images/I/718nUyjgVeL.AC_UL480_FMwebp_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹1700",
+         "gender":"Unisex"
+        },
+        {
+        "id":16,
+         "name":"YARDLEY",
+         "brand":"GENTLEMEN",
+         "image":"https://m.media-amazon.com/images/I/61CzjskgJ7L.AC_UL480_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹1900",
+         "gender":"Women"
+        },
+        {
+        "id":17,
+         "name":"MERCEDES-BENZ",
+         "brand":"COLOGNE",
+         "image":"https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/products/pictures/item/free/resize-w:1080/1114090/scU1bN76zN-1114090_1.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹5600",
+         "gender":"Men"
+        },
+        {
+        "id":18,
+         "name":"POLICE",
+         "brand":"COLOGNE",
+         "image":"https://cdn.shopify.com/s/files/1/0634/3888/1014/products/1871121_01_1000x@2x.png?v=1695889162 ",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹7890",
+         "gender":"Men"
+        },
+        {
+        "id":19,
+         "name":"THE MOST WANTED",
+         "brand":"AZZARO",
+         "image":"https://sslimages.shoppersstop.com/sys-master/images/h56/h34/30971667677214/AW23AZZRLD1160_NoColour.jpg_2000Wx3000H ",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹18900",
+         "gender":"Unisex"
+        },
+        {
+        "id":20,
+         "name":"PRADA",
+         "brand":"MILADA",
+         "image":"https://sslimages.shoppersstop.com/sys-master/images/hc5/hf8/30970876395550/AW23PRA7749607_NoColour.jpg_2000Wx3000H ",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹4000",
+         "gender":"Women"
+        },
+        {
+        "id":21,
+         "name":"VERSACE",
+         "brand":"EROS POUR FEMME",
+         "image":"https://sslimages.shoppersstop.com/sys-master/images/h85/hfe/30203653750814/AW19VE3846627OR_NoColour.jpg_136Wx204H ",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹1900",
+         "gender":"Unisex"
+        },
+        {
+        "id":22,
+         "name":"EROS FLAME",
+         "brand":"VERSACE",
+         "image":"https://m.media-amazon.com/images/I/7167Hk4tO+L.AC_UL480_FMwebp_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹5460",
+         "gender":"Women"
+        },
+        {
+        "id":23,
+         "name":"EROS",
+         "brand":"VERSACE",
+         "image":"https://m.media-amazon.com/images/I/71pBcI9JYXL.AC_UL480_FMwebp_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹1900",
+         "gender":"Men"
+        },
+        {
+        "id":24,
+         "name":"TOMMY",
+         "brand":"NOW",
+         "image":"https://m.media-amazon.com/images/I/61h9bF4t1dL.AC_UL480_QL65.jpg",
+         "description":"BADEE AL OUD OUD Perfume Eau de Parfum - 100 ml  (For Men)",
+         "Highlights":"Quantity: 100 ml<br/> Ideal For: Men <br/>Fragrance Classification:Eau de Parfum <br/>Fragrance Family: Woody<br/> Base Note: Spicy<br/> Heart Note: Floral<br/> Top Note: Citrus",
+         "price":"₹3900",
+         "gender":"Men"
         }
     ]
 }

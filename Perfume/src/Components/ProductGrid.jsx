@@ -45,7 +45,7 @@ const ProductGrid = ({ selectedCategory }) => {
         transition={{ duration: 3 }}
       >
         <Container maxWidth="lg">
-          <Typography variant="h4" align="center" gutterBottom>
+          <Typography variant="h4" align="center">
             BEST SELLER'S
           </Typography>
           <Grid container spacing={4}>
